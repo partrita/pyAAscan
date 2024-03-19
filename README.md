@@ -1,5 +1,5 @@
 # pyAAscan
-a python implementation of AAscan, can be used for designing primers.
+a python implementation of AAscan, a tool used for designing primers.
 The script can either be imported as a python package or used as a command line application. 
 Running it from the command line requires a minimum of 3 inputs:
 - a plaintext file containing the DNA sequence on which the primers should be designed (-seq)
