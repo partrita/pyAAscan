@@ -13,8 +13,9 @@ Or
 ```
 python3 pyAAscan.py -seq pBAD-LEH.gb -cod 30 -mutf mutfile.txt
 ```
-Various other parameters can be set, including minimum and maximum primer length, minimum and maximum melting temperature, maximum difference in melting temperature,
-minimum and maximum overlap, and minimum quality of the CGclamp. further info can be found using the -h or --help flag.  
+Various other parameters can be set, including minimum (-minl) and maximum (-maxl) primer length, 
+minimum (-mintm) and maximum melting temperature (-maxtm), maximum difference in melting temperature (-maxdtm),
+minimum (-mino) and maximum (-maxo) overlap, and minimum quality of the CGclamp (-mincg). further info can be found using the -h or --help flag.  
 Its original aim as a tool for designing primers for alanine scanning can be used by invoking the --aascan flag, 
 in which case providing just the residue numbers with -mut or -mutf is sufficient. 
 
